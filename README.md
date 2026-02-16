@@ -1,16 +1,25 @@
 # -Zepto-E-ticaret-SQL-Veri-Analizi-Projesi
 Bu çalışma; Hindistan'ın en hızlı büyüyen hızlı ticaret (quick-commerce) girişimlerinden biri olan Zepto'dan kazınmış (scraped) bir e-ticaret envanter veri setine dayanan, eksiksiz ve gerçek dünya senaryolarına uygun bir veri analisti portfolyo projesidir.
 
-Sütun Adı,Açıklama
+Sütun Adı
 sku_id,Her ürün için benzersiz kimlik (Primary Key).
+
 name,Uygulamada görünen ürün adı.
+
 category,"Ürün kategorisi (Meyve, İçecek, Atıştırmalık vb.)."
+
 mrp,Maksimum perakende satış fiyatı (Rupi - ₹).
+
 discountPercent,Uygulanan indirim oranı (%).
+
 discountedSellingPrice,İndirim sonrası nihai satış fiyatı (Rupi - ₹).
+
 availableQuantity,Envanterdeki mevcut birim miktarı.
+
 weightInGms,Gram cinsinden ürün ağırlığı.
+
 outOfStock,Stok durumunu belirten boolean bayrağı (True/False).
+
 quantity,Paket başına birim sayısı.
 
 

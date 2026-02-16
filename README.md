@@ -23,6 +23,11 @@ outOfStock,Stok durumunu belirten boolean bayrağı (True/False).
 quantity,Paket başına birim sayısı.
 
 
+
+
+
+--------------------------------------------------
+
 Veri Temizleme ve Hazırlık Süreci
 Veri setini analize uygun hale getirmek için aşağıdaki adımlar uygulanmıştır:
 
@@ -33,6 +38,7 @@ Hatalı Veri Temizliği: Perakende fiyatı (mrp) 0 olan hatalı kayıtlar tespit
 Null Kontrolü: Tüm sütunlar üzerinde IS NULL kontrolü yapılmış ve eksik veri olmadığı doğrulanmıştır.
 
 Şema Yönetimi: PostgreSQL search_path ayarları yapılarak public şeması varsayılan hale getirilmiştir.
+----------------------------------------------------
 
 
 Proje kapsamında aşağıdaki kritik iş sorularına yanıt aranmıştır:
